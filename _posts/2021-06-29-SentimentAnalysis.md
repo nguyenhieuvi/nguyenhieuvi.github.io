@@ -27,7 +27,7 @@ There are four sorts of data required.
 - Tweets: Early sentiment analysis work
 included the collection of a set of tweets, some for training
 a machine learning model for sentiment analysis, and some for evaluating how good that model was.
-That same data was utilised in this project with the following information for each tweet:
+The same data were utilised in this project with the following information for each tweet:
 
       • the gold polarity of the tweet (0 = negative, 2 = neutral, 4 = positive, = not given)
       
