@@ -43,8 +43,7 @@ That same data was utilised in this project with the following information for e
       
 ![_config.yml]({{ site.baseurl }}/images/fig3.png)
 
-- Basic Sentiment Words: There is a widely used subjectivity and sentiment lexicon
-that from which the data were extracted. Each line is comprised of a word, followed by the typical sentiment of that word
+- Basic Sentiment Words: There is a widely used subjectivity and sentiment lexicon from which the data were extracted. Each line is comprised of a word, followed by the typical sentiment of that word
 without any additional context, indicated by the string positive or negative, e.g.
 
 ![_config.yml]({{ site.baseurl }}/images/fig4.png)
