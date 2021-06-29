@@ -3,8 +3,6 @@ layout: post
 title: Twitter Sentiment Analysis in Java
 ---
 
-1. Introduction
-
 Sentiment analysis is an application of Natural Language Processing (a branch of Artificial Intelligence) that revolves around detecting the sentiment of text. A common dimension for measuring sentiment uses labels positive, negative and neutral; there are many other possibilities as well (i.e. how strong the sentiment is, how active vs subdued it is, etc). Figure 1 contains two sample tweets about the current series Falcon and the Winter Soldier, one positive and one negative. As companies aspire to obtain detailed insights into the way their products are being perceived, social
 media is a particularly popular arena for deploying sentiment analysis. As a result, there are many organisations offering apps or services for building them; a screenshot from a demo of such an app is given in Figure 2.
 
@@ -23,33 +21,27 @@ version of label propagation later.
 
 ![_config.yml]({{ site.baseurl }}/images/figure1&2.png)
 
-
-2. Data
-
 There are four sorts of data required.
-
-- Tweets: Early sentiment analysis work
-included the collection of tweets, some for training
+- Tweets: Early sentiment analysis work6
+included the collection of a set of tweets, some for training
 a machine learning model for sentiment analysis, and some for evaluating how good that model is.
-That same data was utilised in this project with the following information for each tweet:
+We’ll be using that same data; it includes the following information for each tweet:
 
-• the gold polarity of the tweet (0 = negative, 2 = neutral, 4 = positive, = not given)
+      • the gold polarity of the tweet (0 = negative, 2 = neutral, 4 = positive, = not given)
+      
+      • the id of the tweet (2087)
+      
+      • the date of the tweet (Sat May 16 23:58:44 UTC 2009)
+      
+      • the query (lyx)
+      
+      • the user that tweeted (e.g. robotickilldozr)
+      
+      • the text of the tweet (e.g. Lyx is cool)
 
-+ the id of the tweet (2087)
+A simple keyword-based method was basically implemented for sentiment analysis of tweets, computing the total of positive and negative words in a tweet to determine the predicted polarity of the tweet. 
 
-+ the date of the tweet (Sat May 16 23:58:44 UTC 2009)
 
-+ the query (lyx)
-
-+ the user that tweeted (e.g. robotickilldozr)
-
-+ the text of the tweet (e.g. Lyx is cool)
-
-- Basic Sentiment Words: There is a widely used subjectivity and sentiment lexicon
-that from which the data have been extracted. Each line is comprised of a word, followed by the typical sentiment of that word
-without any additional context, indicated by the string positive or negative, e.g.
-
-![_config.yml]({{ site.baseurl }}/images/fig3.png)
 
 
 
