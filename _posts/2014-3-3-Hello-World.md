@@ -3,6 +3,8 @@ layout: post
 title: Twitter Sentiment Framework
 ---
 
+1.Introduction
+
 ![_config.yml]({{ site.baseurl }}/images/sentiment-analysis.jpg)
 
 Sentiment analysis is an application of Natural Language Processing (a branch of Artificial Intelligence) that revolves around detecting the sentiment of text. A common dimension for measuring sentiment uses labels positive, negative and neutral; there are many other possibilities as well (i.e. how strong the sentiment is, how active vs subdued it is, etc). Figure 1 contains two sample tweets about the current series Falcon and the Winter Soldier, one positive and one negative. Social
@@ -20,5 +22,33 @@ analyser . Early stages of the project only employ a keyword-based approach, bui
 version of label propagation later.
 
 ![_config.yml]({{ site.baseurl }}/images/figure1&2.png)
+
+2. Data
+
+There are four sorts of data required.
+
+- Tweets: Early sentiment analysis work
+included the collection of tweets, some for training
+a machine learning model for sentiment analysis, and some for evaluating how good that model is.
+That same data was utilised in this project with the following information for each tweet:
+
+• the gold polarity of the tweet (0 = negative, 2 = neutral, 4 = positive, = not given)
+
+• the id of the tweet (2087)
+
+• the date of the tweet (Sat May 16 23:58:44 UTC 2009)
+
+• the query (lyx)
+
+• the user that tweeted (e.g. robotickilldozr)
+
+• the text of the tweet (e.g. Lyx is cool)
+
+We’ll be ignoring the query. I’ve written code to read in the CSV file that the data is stored in.
+The starting sample data you’ll be working with consists of 10 tweets, with details as in Figure 3.
+Basic Sentiment Words There’s a widely used subjectivity and sentiment lexicon8
+that I’ve
+extracted data from. Each line consists of a word, followed by the typical sentiment of that word
+without any additional context, indicated by the string positive or negative, e.g.
 
 The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
