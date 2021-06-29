@@ -3,7 +3,7 @@ layout: post
 title: Twitter Sentiment Framework
 ---
 
-Sentiment analysis is an application of Natural Language Processing (a branch of Artificial Intelligence) that is concerned with detecting the sentiment of text. A common dimension for measuring sentiment uses labels positive, negative and neutral; there are many other possibilities as well (e.g. how strong the sentiment is, how active vs subdued it is, etc). Figure 1 contains two sample tweets about the current series Falcon and the Winter Soldier, one positive and one negative. Social
+Sentiment analysis is an application of Natural Language Processing (a branch of Artificial Intelligence) that revolves around detecting the sentiment of text. A common dimension for measuring sentiment uses labels positive, negative and neutral; there are many other possibilities as well (i.e. how strong the sentiment is, how active vs subdued it is, etc). Figure 1 contains two sample tweets about the current series Falcon and the Winter Soldier, one positive and one negative. Social
 media is a particularly popular arena for deploying sentiment analysis: companies want to know how their products are being perceived, etc. Consequently, there are many organisations offering apps or services for building them; a screenshot from a demo of such an app is given in Figure 2.
 
 The earliest and simplest techniques for carrying out sentiment analysis (although this type of
@@ -12,11 +12,11 @@ from a source of words that have known sentiment (a sentiment lexicon). Often, t
 are common. Consequently, there are other approaches to the task: there’s a large class of machine learning3
 techniques applied, as well as other techniques like label propagation, where sentiment labels are propagated through a graph structure.
 
-In this project, I have worked with a collection of real tweets collected by researchers who developed
-one of the first approaches to sentiment analysis of tweets, and build my own tweet sentiment
+In this project, I have worked with a set of real tweets collected by researchers who developed
+one of the first approaches to sentiment analysis of tweets, and constructed my own tweet sentiment
 analyser. Early stages of the project only employ a keyword-based approach, building up to a simple
 version of label propagation later.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![_config.yml]({{ site.baseurl }}/images/Screenshot 2021-06-29 211818.png)
 
 The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
