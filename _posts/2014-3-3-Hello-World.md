@@ -3,7 +3,19 @@ layout: post
 title: Twitter Sentiment Framework
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Sentiment analysis is an application of Natural Language Processing (a branch of Artificial Intelligence) that is concerned with detecting the sentiment of text. A common dimension for measuring sentiment uses labels positive, negative and neutral; there are many other possibilities as well (e.g. how strong the sentiment is, how active vs subdued it is, etc). Figure 1 contains two sample tweets about the current series Falcon and the Winter Soldier, one positive and one negative. Social
+media is a particularly popular arena for deploying sentiment analysis: companies want to know how their products are being perceived, etc. Consequently, there are many organisations offering apps or services for building them; a screenshot from a demo of such an app is given in Figure 2.
+
+The earliest and simplest techniques for carrying out sentiment analysis (although this type of
+approach is still in fact widely used) just carried out keyword matching in the text, based on words
+from a source of words that have known sentiment (a sentiment lexicon). Often, these lexicons don’t have extensive coverage: there are many words with sentiment that aren’t included in them, particularly in the case of social media text, where misspellings, abbreviations and slang
+are common. Consequently, there are other approaches to the task: there’s a large class of machine learning3
+techniques applied, as well as other techniques like label propagation, where sentiment labels are propagated through a graph structure.
+
+In this project, I have worked with a collection of real tweets collected by researchers who developed
+one of the first approaches to sentiment analysis of tweets, and build my own tweet sentiment
+analyser. Early stages of the project only employ a keyword-based approach, building up to a simple
+version of label propagation later.
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
