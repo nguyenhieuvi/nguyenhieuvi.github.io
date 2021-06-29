@@ -1,4 +1,4 @@
-#
+o#
 # This file contains configuration flags to customize your site
 #
 
@@ -6,7 +6,7 @@
 name: Vi Hieu Nguyen's Blog
 
 # Short bio or description (displayed in the header)
-description: On my way to Machine Learning
+description: The journey to Machine Learning
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
