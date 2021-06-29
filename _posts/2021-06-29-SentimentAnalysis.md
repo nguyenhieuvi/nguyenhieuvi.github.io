@@ -8,7 +8,7 @@ Sentiment analysis is an application of Natural Language Processing (a branch of
 The proposed approach for sentiment analysis is concerned with a novel  method  for  modeling  the tweets,  called  Word-Graph Sentiment  Analysis Method. This  approach  combines the  graph structure with  graph  similarity  metrics  and classification  methodologies  in  order  to  automatically  infer  the sentiment  expressed  by  the  author  of  the  tweet  towards  a pre-selected  topic.  In  this project,  the  words contained in a short tweet are represented as vertices and the vicinity between the words as edges. Figure 1 contains two sample tweets about the current series Falcon and the Winter Soldier, one positive and one negative. As companies aspire to obtain detailed insights into the way their products are being perceived, social
 media is a particularly popular arena for deploying sentiment analysis. As a result, there are many organisations offering apps or services for building them; a screenshot from a demo of such an app is given in Figure 2.
 
-![_config.yml]({{ site.baseurl }}/images/sentiment-analysis.jpg)
+![_config.yml]({{ site.baseurl }}/images/sentiment-analysis.jpg) source: marketmotive.com
 
 The earliest and simplest techniques for performing sentiment analysis (although this type of
 approach is still in fact widely used) only conducted keyword matching in the text on the basis of words
