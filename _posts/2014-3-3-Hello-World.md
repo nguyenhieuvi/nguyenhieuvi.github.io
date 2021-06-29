@@ -23,6 +23,7 @@ version of label propagation later.
 
 ![_config.yml]({{ site.baseurl }}/images/figure1&2.png)
 
+
 2. Data
 
 There are four sorts of data required.
@@ -34,15 +35,15 @@ That same data was utilised in this project with the following information for e
 
 • the gold polarity of the tweet (0 = negative, 2 = neutral, 4 = positive, = not given)
 
-• the id of the tweet (2087)
++ the id of the tweet (2087)
 
-• the date of the tweet (Sat May 16 23:58:44 UTC 2009)
++ the date of the tweet (Sat May 16 23:58:44 UTC 2009)
 
-• the query (lyx)
++ the query (lyx)
 
-• the user that tweeted (e.g. robotickilldozr)
++ the user that tweeted (e.g. robotickilldozr)
 
-• the text of the tweet (e.g. Lyx is cool)
++ the text of the tweet (e.g. Lyx is cool)
 
 - Basic Sentiment Words: There is a widely used subjectivity and sentiment lexicon
 that from which the data have been extracted. Each line is comprised of a word, followed by the typical sentiment of that word
