@@ -3,6 +3,8 @@ layout: post
 title: Twitter Sentiment Framework
 ---
 
+![_config.yml]({{ site.baseurl }}/images/sentiment-analysis.jpg)
+
 Sentiment analysis is an application of Natural Language Processing (a branch of Artificial Intelligence) that revolves around detecting the sentiment of text. A common dimension for measuring sentiment uses labels positive, negative and neutral; there are many other possibilities as well (i.e. how strong the sentiment is, how active vs subdued it is, etc). Figure 1 contains two sample tweets about the current series Falcon and the Winter Soldier, one positive and one negative. Social
 media is a particularly popular arena for deploying sentiment analysis: companies want to know how their products are being perceived, etc. Consequently, there are many organisations offering apps or services for building them; a screenshot from a demo of such an app is given in Figure 2.
 
