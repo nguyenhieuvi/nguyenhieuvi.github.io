@@ -44,9 +44,6 @@ That same data was utilised in this project with the following information for e
 
 • the text of the tweet (e.g. Lyx is cool)
 
-We’ll be ignoring the query. I’ve written code to read in the CSV file that the data is stored in.
-The starting sample data you’ll be working with consists of 10 tweets, with details as in Figure 3.
-
 - Basic Sentiment Words: There is a widely used subjectivity and sentiment lexicon
 that from which the data have been extracted. Each line is comprised of a word, followed by the typical sentiment of that word
 without any additional context, indicated by the string positive or negative, e.g.
