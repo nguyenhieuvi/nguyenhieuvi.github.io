@@ -5,8 +5,8 @@ title: Twitter Sentiment Analysis in Java
 
 1. Introduction
 
-Sentiment analysis is an application of Natural Language Processing (a branch of Artificial Intelligence) that revolves around detecting the sentiment of text. A common dimension for measuring sentiment uses labels positive, negative and neutral; there are many other possibilities as well (i.e. how strong the sentiment is, how active vs subdued it is, etc). Figure 1 contains two sample tweets about the current series Falcon and the Winter Soldier, one positive and one negative. Social
-media is a particularly popular arena for deploying sentiment analysis: companies aspire to obtain detailed insights into the way their products are being perceived. As a result, there are many organisations offering apps or services for building them; a screenshot from a demo of such an app is given in Figure 2.
+Sentiment analysis is an application of Natural Language Processing (a branch of Artificial Intelligence) that revolves around detecting the sentiment of text. A common dimension for measuring sentiment uses labels positive, negative and neutral; there are many other possibilities as well (i.e. how strong the sentiment is, how active vs subdued it is, etc). Figure 1 contains two sample tweets about the current series Falcon and the Winter Soldier, one positive and one negative. As companies aspire to obtain detailed insights into the way their products are being perceived, social
+media is a particularly popular arena for deploying sentiment analysis. As a result, there are many organisations offering apps or services for building them; a screenshot from a demo of such an app is given in Figure 2.
 
 ![_config.yml]({{ site.baseurl }}/images/sentiment-analysis.jpg)
 
@@ -46,9 +46,14 @@ That same data was utilised in this project with the following information for e
 
 We’ll be ignoring the query. I’ve written code to read in the CSV file that the data is stored in.
 The starting sample data you’ll be working with consists of 10 tweets, with details as in Figure 3.
-Basic Sentiment Words There’s a widely used subjectivity and sentiment lexicon8
-that I’ve
-extracted data from. Each line consists of a word, followed by the typical sentiment of that word
+
+- Basic Sentiment Words: There is a widely used subjectivity and sentiment lexicon
+that from which the data have been extracted. Each line is comprised of a word, followed by the typical sentiment of that word
 without any additional context, indicated by the string positive or negative, e.g.
+
+![_config.yml]({{ site.baseurl }}/images/fig3.png)
+
+
+
 
 The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
