@@ -17,6 +17,6 @@ one of the first approaches to sentiment analysis of tweets, and constructed my 
 analyser. Early stages of the project only employ a keyword-based approach, building up to a simple
 version of label propagation later.
 
-![_config.yml]({{ site.baseurl }}/images/Screenshot 2021-06-29 211818.png)
+![_config.yml]({{ site.baseurl }}/images/figure1&2.png)
 
 The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
